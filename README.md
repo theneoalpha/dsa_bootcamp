@@ -7,3 +7,5 @@
         Day 02 : Intermediate Pattern Printing
 
         Day 03 : Medium Pattern Printing
+
+        Day 04 : Advanced Pattern Printing
