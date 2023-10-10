@@ -9,3 +9,5 @@
         Day 03 : Medium Pattern Printing
 
         Day 04 : Advanced Pattern Printing
+
+        Day 05 : Binary and Decimal Conversion
