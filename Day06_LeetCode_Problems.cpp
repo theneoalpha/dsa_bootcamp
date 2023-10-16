@@ -89,5 +89,26 @@ int main() {
   cout<<"Yes it is a power of 2";
 
 //               Ending of Problem 4
-*/  
+ */
+
+/*
+  //              Problem 05: Square Root
+
+  int num;
+  cin>>num;
+  for(int i=0;i<=num;i = i+1){
+    if(i*i == num){
+      cout<<i;
+      return 0;
+    }
+    else if(i*i > num){
+      cout<<(i-1);
+      return 0;
+    }
+  }
+
+
+
+  //       Ending of the Problem 05
+  */
 }
