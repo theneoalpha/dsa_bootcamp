@@ -11,3 +11,5 @@
         Day 04 : Advanced Pattern Printing
 
         Day 05 : Binary and Decimal Conversion
+
+        Day 06 : LeetCode Problems
