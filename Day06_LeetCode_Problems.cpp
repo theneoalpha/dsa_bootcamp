@@ -111,4 +111,30 @@ int main() {
 
   //       Ending of the Problem 05
   */
+
+
+  //        Problem 06: Palindrome number
+
+  // 161 -> 1,6,1 -> Palindrome (reverse will be same)
+
+int num;
+  cin>>num;
+
+  int value = num;
+int ans=0;
+  while(num!=0){
+    int rem = num%10;
+    num = num/10;
+    ans = ans*10 + rem;
+  }
+  if(ans == value){
+    cout<<"Yes it is a palindrome";
+  }
+  else{
+  cout<<"Not a palindrome";
+  }
+
+//                Ending of the Problem 06
+
+
 }
