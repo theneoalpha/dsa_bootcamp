@@ -45,6 +45,15 @@ void Swap(int &x , int &y){
   y = z;
 }
 
+// Function OverLoading
+
+void Swap(float &p , float &q){
+  float r;
+  r = p;
+  p = q;
+  q = r;
+}
+
 int main() {
   cout << "Day 07:  Functions \n ";
 
@@ -75,15 +84,30 @@ int main() {
   cin>>a>>b;
   Swap(a,b);
   cout<<a<<" "<<b<<" ";
-  // No swapping because we only pass the value, on passing the value, exact copy was created while fuction call , not passing the address of the value.
+  // No swapping because we only pass the value, on passing the value, //exact copy was created while fuction call , not passing the address of //the value.
 */
 
-
+/*
   // Pass By Reference
   int a,b;
   cin>>a>>b;
   Swap(a,b);
   cout<<a<<" "<<b<<" ";
 
-  // yaha pe address pass hota hai , ye swap ho jayega kyoki address pass ho raha hai
+  // yaha pe address pass hota hai , ye swap ho jayega kyoki address pass // ho raha hai
+
+  */
+
+  // Function Overloading
+  // int a,b;
+  // cin>>a>>b;
+  // Swap(a,b);
+  // cout<<a<<" "<<b;
+
+  float c,d;
+  cin>>c>>d;
+  Swap(c,d);
+  cout<<c<<" "<<d;
+  
+  
 }
