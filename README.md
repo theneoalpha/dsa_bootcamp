@@ -26,4 +26,6 @@
 
                         Problem 04: Can I form rectangle by given four numbers
 
+                        Problem 05: Total Moves for  Bishop (oot : Diagonally movement)
+
 

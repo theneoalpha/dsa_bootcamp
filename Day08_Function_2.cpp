@@ -2,14 +2,12 @@
 #include <math.h>
 
 using namespace std;
-/*
 //             Converting 'a' to 'A' Function
 char ConvertToCapital(char x){
   char value = x - 'a' +'A';
   return value;
 }
 
-*/
 /*
 int Digit(int a){
   int count = 0;
@@ -50,7 +48,7 @@ int TrailingZero(int a ){
 }
 */
 
-
+/*
 // Rectangle or not
 bool Rect(int a , int b, int c , int d){
   if(a==b && c==d || a==c && b==d || a==d && b==c ){
@@ -60,6 +58,20 @@ bool Rect(int a , int b, int c , int d){
     return false;
   }
 }
+*/
+
+int Bishop(int row,int col){
+  int count = 0;
+  count = count + min(8 - row , 8 - col);
+  count = count + min(8 - row ,col - 1 );
+  count = count + min(row - 1, col - 1);
+  count = count + min(row - 1, 8 - col);
+
+
+    return count;
+}
+
+
 
 int main() {
   cout << "Day 08: Functions 2 \n ";
@@ -68,8 +80,8 @@ int main() {
 
  //  cout<<ConvertToCapital('n');
 
-int num;
-  cin>>num;
+//int num;
+  // cin>>num;
 
 /*
 //   Problem 02 :   Amstrong number 
@@ -87,12 +99,18 @@ int num;
   cout<<value;
 */
 
-  
-  // Problem 04: Can I form rectangle by given four numbers
+  /*
+  //Problem 04:  Can I form rectangle by given four numbers
 
   int a,b,c,d;
   cout<<"Enter the sides value: ";
   cin>>a>>b>>c>>d;
   cout<<Rect(a,b,c,d);
+*/
 
+  //Problem 05: Total Moves for  Bishop (oot : Diagonally movement)
+  int a,b;
+  cout<<"Enter the Position of Bishop: ";
+  cin>>a>>b;
+  cout<<Bishop(a,b);
 }
