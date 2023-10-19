@@ -17,7 +17,7 @@ int Digit(int a){
   }
   return count;
 }
-
+/*
 bool Armstrong(int num , int digit){
   int value = num;
   int ans = 0;
@@ -34,26 +34,45 @@ bool Armstrong(int num , int digit){
   }
   
 }
+*/
+
+//Trailing Zeroes
+int TrailingZero(int a ){
+  int number = 0;
+  while(a>5){
+    number = number + a/5;
+    a = a/5;
+  }
+  return number;
+}
+
+
+
 int main() {
   cout << "Day 08: Functions 2 \n ";
-//          converting 'a' to 'A' using function
+  
+//      Problem 01:     converting 'a' to 'A' using function
 
  //  cout<<ConvertToCapital('n');
 
 int num;
   cin>>num;
 
-
-//     Amstrong number 
+/*
+//   Problem 02 :   Amstrong number 
   // 153 -> 1^3+5^3+3^3 = 153 then yes amstrong
   // 1453 - > 1^4+4^4+5^4+3^4 = 1453 then yes amstrong else not
   int digit = Digit(num);
   int n = Armstrong(num,digit);
 
   cout<<n;
- 
-  
-  
-  
+ */
 
+  // Problem 03 : Trailing Zeroes in a Factorial (7! last me kitne zero hai)
+
+  int value = TrailingZero(num);
+  cout<<value;
+
+
+ 
 }
