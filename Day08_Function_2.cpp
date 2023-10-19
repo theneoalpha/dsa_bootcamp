@@ -2,13 +2,15 @@
 #include <math.h>
 
 using namespace std;
+/*
 //             Converting 'a' to 'A' Function
 char ConvertToCapital(char x){
   char value = x - 'a' +'A';
   return value;
 }
 
-
+*/
+/*
 int Digit(int a){
   int count = 0;
   while(a){
@@ -17,6 +19,7 @@ int Digit(int a){
   }
   return count;
 }
+*/
 /*
 bool Armstrong(int num , int digit){
   int value = num;
@@ -35,7 +38,7 @@ bool Armstrong(int num , int digit){
   
 }
 */
-
+/*
 //Trailing Zeroes
 int TrailingZero(int a ){
   int number = 0;
@@ -45,8 +48,18 @@ int TrailingZero(int a ){
   }
   return number;
 }
+*/
 
 
+// Rectangle or not
+bool Rect(int a , int b, int c , int d){
+  if(a==b && c==d || a==c && b==d || a==d && b==c ){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
 
 int main() {
   cout << "Day 08: Functions 2 \n ";
@@ -67,12 +80,19 @@ int num;
 
   cout<<n;
  */
-
+/*
   // Problem 03 : Trailing Zeroes in a Factorial (7! last me kitne zero hai)
 
   int value = TrailingZero(num);
   cout<<value;
+*/
 
+  
+  // Problem 04: Can I form rectangle by given four numbers
 
- 
+  int a,b,c,d;
+  cout<<"Enter the sides value: ";
+  cin>>a>>b>>c>>d;
+  cout<<Rect(a,b,c,d);
+
 }
