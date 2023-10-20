@@ -59,7 +59,7 @@ bool Rect(int a , int b, int c , int d){
   }
 }
 */
-
+/*
 int Bishop(int row,int col){
   int count = 0;
   count = count + min(8 - row , 8 - col);
@@ -70,8 +70,14 @@ int Bishop(int row,int col){
 
     return count;
 }
-
-
+*/
+// Nim Game
+bool NimGame(int a){
+  if(a%4 == 0)
+    return 1;
+  else
+    return 0;
+}
 
 int main() {
   cout << "Day 08: Functions 2 \n ";
@@ -107,10 +113,19 @@ int main() {
   cin>>a>>b>>c>>d;
   cout<<Rect(a,b,c,d);
 */
-
+/*
   //Problem 05: Total Moves for  Bishop (oot : Diagonally movement)
   int a,b;
   cout<<"Enter the Position of Bishop: ";
   cin>>a>>b;
   cout<<Bishop(a,b);
+
+  */
+
+  //Problem 06: Nim game
+
+  int num;
+  cout<<"Enter the number: ";
+  cin>>num;
+  cout<<NimGame(num);
 }

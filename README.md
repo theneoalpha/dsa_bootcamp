@@ -28,4 +28,6 @@
 
                         Problem 05: Total Moves for  Bishop (oot : Diagonally movement)
 
+                        Problem 06: Nim Game
+
 
