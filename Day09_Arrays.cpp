@@ -5,8 +5,6 @@ using namespace std;
 
 int main() {
 cout<<"Day 09 : Arrays \n";
-
-cout<<"5 Different Ways to declare and print arrays:";
 /*  
 // Method 01 : Array initalisation and simultenously declaration
   
@@ -56,5 +54,49 @@ cout<<"5 Different Ways to declare and print arrays:";
   for(int i=0;i<5;i++){
     cout<<a[i]<<" ";
   }
-*/  
+*/ 
+  // Address of a array element  
+ // int arr[5] = {4,8,3,2,3};
+
+ // address of a[1] position element
+  // arr(it gives address of first element) + index number (a[1]) + number of bit for particular datatype(int ka no. of bit 4 hota hai)
+  
+  //                   arr+a[1]+4
+ // cout<<arr+1+4;
+
+  /*
+
+// Problem 01 : Lets Find the lowest number in an array
+
+  int arr[5] = {4,7,3 ,6 ,8};
+  int number = 2147483647 ;
+  for(int i = 0;i<5;i++){
+    
+    
+    if(number > arr[i] )
+    {
+      number = arr[i];
+    }
+  }
+ 
+cout<<number;
+
+  */
+
+  
+//Problem 02:  Lets Find the Greatest number in an array
+  int arr[5] = {4,7,3 ,6 ,8};
+    int num = -2147483647 ;
+    for(int i = 0;i<5;i++){
+
+
+      if(num < arr[i] )
+      {
+        num = arr[i];
+      }
+    }
+
+  cout<<num;
+
+  
 }
