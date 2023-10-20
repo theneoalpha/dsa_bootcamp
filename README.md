@@ -32,3 +32,11 @@
 
         Day 09 : Arrays
 
+                        Problem 01: Lets Find the lowest number in an array
+
+                        Problem 02: Lets Find the Greatest number in an array
+
+        Day 10 : Arrays Problems
+
+                        Problem 01 : Search Element in an array                
+
