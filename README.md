@@ -30,4 +30,5 @@
 
                         Problem 06: Nim Game
 
+        Day 09 : Arrays
 
