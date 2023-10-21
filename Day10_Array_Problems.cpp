@@ -79,7 +79,7 @@ int main() {
 
                //    Ending of the Problem 03
   */
-
+/*
   //       Problem 04 : Missing Number in a sequence of numbers in an array
           int n = 5;
           int arr[5]= {1,2,3,5,6};     //MISSING - 3
@@ -91,6 +91,23 @@ int main() {
         
           int missingNumber = sumOfN-sum;
           cout<<missingNumber;
+//            Ending of Problem 04
+  */
 
+
+
+  //           nth Fibonacci number using an array
+
+                int arr[1000];
+              int n;
+                cin>>n;
+                arr[0]=0;
+                arr[1]=1;
+              
+                int ans;
+                for(int i =2;i<n;i++){
+                  arr[i] = arr[i-1]+arr[i-2];
+                }
+              cout<<arr[n-1];
   
         }
