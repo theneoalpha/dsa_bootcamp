@@ -38,5 +38,13 @@
 
         Day 10 : Arrays Problems
 
-                        Problem 01 : Search Element in an array                
+                        Problem 01 : Search Element in an array     
+
+                        Problem 02 : Reverse an array   
+
+                        Problem 03 : Second Greatest number among an array  
+
+                         Problem 04 : Missing Number in a sequence of numbers in an array    
+
+                         Problem 05: nth Fibonacci number using an array  
 
