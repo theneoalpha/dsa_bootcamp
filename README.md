@@ -38,5 +38,7 @@
 
         Day 10 : Arrays Problems
 
-                        Problem 01 : Search Element in an array                
+                        Problem 01 : Search Element in an array     
+
+                        Problem 02 : Reverse an array           
 
