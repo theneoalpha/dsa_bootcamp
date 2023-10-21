@@ -42,5 +42,7 @@
 
                         Problem 02 : Reverse an array   
 
-                        Problem 03 : Second Greatest number among an array        
+                        Problem 03 : Second Greatest number among an array  
+
+                         Problem 04 : Missing Number in a sequence of numbers in an array      
 

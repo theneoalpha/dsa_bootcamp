@@ -79,4 +79,18 @@ int main() {
 
                //    Ending of the Problem 03
   */
-}
+
+  //       Problem 04 : Missing Number in a sequence of numbers in an array
+          int n = 5;
+          int arr[5]= {1,2,3,5,6};     //MISSING - 3
+        int sum = 0;
+          for(int i=0;i<5;i++){
+            sum = sum+arr[i];
+          }
+          int sumOfN = ((n+1)*(n+2))/2;
+        
+          int missingNumber = sumOfN-sum;
+          cout<<missingNumber;
+
+  
+        }
