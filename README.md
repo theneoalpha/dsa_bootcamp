@@ -40,5 +40,7 @@
 
                         Problem 01 : Search Element in an array     
 
-                        Problem 02 : Reverse an array           
+                        Problem 02 : Reverse an array   
+
+                        Problem 03 : Second Greatest number among an array        
 
