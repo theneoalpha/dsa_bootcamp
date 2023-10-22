@@ -48,3 +48,5 @@
 
                          Problem 05: nth Fibonacci number using an array  
 
+                         Problem 06 : Rotate element of an array by 1
+
