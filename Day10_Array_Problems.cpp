@@ -94,7 +94,7 @@ int main() {
 //            Ending of Problem 04
   */
 
-
+/*
 
   //           nth Fibonacci number using an array
 
@@ -109,5 +109,28 @@ int main() {
                   arr[i] = arr[i-1]+arr[i-2];
                 }
               cout<<arr[n-1];
+*/
+
+
+
+  //   Problem 06:    Rotate element of an array by 1
+  //       int arr[5] = {4,6,2,8,5};  --> {5,4,6,2,8}
+
+  int arr[1000]= {4,6,2,8,5};
+  int temp = arr[5-1];
+  
+  for(int i=5-2;i>=0;i--){
+
+    arr[i+1]=arr[i];
+     
+  }
+  arr[0] = temp;
+  
+
+  for(int i =0;i<5;i++){
+    cout<<arr[i];
+  }
+  
+  
   
         }
