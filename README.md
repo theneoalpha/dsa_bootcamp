@@ -58,3 +58,7 @@
                         Problem 02 : Selection Sorting in increasing order by checking last to first element of an array           
 
         Day 12 : Arrays Sorting :  Bubble Sort
+
+                        Problem 01 : Bubble sorting
+
+                        Problem 02 : Sorting of an array by using Bubble Sort with optimized case time complexity
