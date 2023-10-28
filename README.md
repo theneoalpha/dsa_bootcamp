@@ -51,14 +51,19 @@
                          Problem 06 : Rotate element of an array by 1
 
 
-        Day 11 : Arrays Sorting : Selection Sort
+        Day 11 : Array Sorting : Selection Sort
 
                         Problem 01 : Selection Sorting in increasing order by checking  first to last element of an array
 
                         Problem 02 : Selection Sorting in increasing order by checking last to first element of an array           
 
-        Day 12 : Arrays Sorting :  Bubble Sort
+        Day 12 : Array Sorting :  Bubble Sort
 
                         Problem 01 : Bubble sorting
 
                         Problem 02 : Sorting of an array by using Bubble Sort with optimized case time complexity
+
+
+        Day 13 : Array Sorting : Insertion sorting
+
+                        Problem 01 : Insertion sorting            
