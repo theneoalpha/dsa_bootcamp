@@ -66,4 +66,8 @@
 
         Day 13 : Array Sorting : Insertion sorting
 
-                        Problem 01 : Insertion sorting            
+                        Problem 01 : Insertion sorting  
+
+
+
+        Day 14 : Binary Search                          
