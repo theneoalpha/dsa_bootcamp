@@ -70,7 +70,12 @@
 
 
 
-        Day 14 : Binary Search        
+        Day 14 : Binary Search    
+
+
+        Day 15 : Revising Array Sorting
+
+                        Problem 01 : Selection Sort    
 
 
 
