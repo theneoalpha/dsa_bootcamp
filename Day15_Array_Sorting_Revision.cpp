@@ -1,12 +1,16 @@
+
+
+
 #include <iostream>
 using namespace std;
 
 
 int main() {
-    // Sorting : Selection Sort
+  /*
+    // Sorting  Method 1 : Selection Sort
   cout << "Array Sorting : Selection sort!\n";
   int arr[5] = {7,4,12,8,54};
-  
+
 
 for(int i =0;i<5;i++){
   int index =i;
@@ -14,7 +18,7 @@ for(int i =0;i<5;i++){
            {
              if(arr[index]>arr[j])
                index = j;
-      
+
           }
             swap(arr[index],arr[i]);
 
@@ -23,3 +27,40 @@ for(int i =0;i<5;i++){
   for(int i=0;i<5;i++){
     cout<<arr[i]<<" ";
   }
+
+*/
+
+// Sorting Method 02 : Bubble sort
+
+  cout<<"Array sorting : Bubble sort \n";
+
+
+  int arr[5] = {45, 74, 34, 23, 98};
+  
+  
+  for(int i =3;i>=0;i--){
+    
+    for(int j=0;j<=i;j++){
+      
+          if(arr[j]>arr[j+1])
+            swap(arr[i],arr[j]);
+        }
+   
+  }
+
+
+  for(int i=0;i<5;i++){
+    cout<<arr[i]<<" ";
+  }
+
+ 
+
+
+
+
+
+
+
+
+  
+}

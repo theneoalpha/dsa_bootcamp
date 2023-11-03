@@ -75,7 +75,10 @@
 
         Day 15 : Revising Array Sorting
 
-                        Problem 01 : Selection Sort    
+                        Problem 01 : Selection Sort 
+
+                        Problem 02 : Bubble sort
+                           
 
 
 
