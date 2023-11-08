@@ -78,6 +78,8 @@
                         Problem 01 : Selection Sort 
 
                         Problem 02 : Bubble sort
+
+                        Problem 03 : Insetion sort
                            
 
 
