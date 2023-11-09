@@ -80,6 +80,8 @@
                         Problem 02 : Bubble sort
 
                         Problem 03 : Insetion sort
+
+                        Problem 04 : Binary Search
                            
 
 

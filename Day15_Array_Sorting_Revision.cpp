@@ -54,6 +54,7 @@ for(int i =0;i<5;i++){
   }
 
  */
+/*
 // Sorting Method 03 : Insertion sort
   cout << "Insertion Sort\n";
 
@@ -74,9 +75,45 @@ for(int i =0;i<5;i++){
   for(int i=0;i<5;i++){
     cout<<arr[i]<<" ";
   }
+ */ 
+// Problem 04 : Binary Search
+  cout << "Revising Binary search\n";
+int n;
+  int arr[1000];
+  cout<<"Enter the size of the array: ";
+  cin>>n;
+  cout<<"Enter the element of the array in sorted manner: ";
+  for(int i=0;i<n;i++){
+    cin>>arr[i];
+  }
+cout<<"The input array elements are: ";
+  for(int i=0;i<n;i++){
+    cout<<arr[i]<<" ";
+  }
+
+
+int key;
+  cout<<"Enter the element which you want to find: ";
+  cin>>key;
+  int start = 0;
+  int end = n-1;
+
+  while(start<=end){
+  int mid = (start + end)/2;
+if(arr[mid]==key){
+  cout<<"The element is at "<<mid<<" position.";
+  return 0;
+}
+    else if(arr[mid]<key){
+      start = mid+1;
+    }
+    else{
+      end = mid-1;
+    }
   
+  }
 
-
+  cout<<"Element not exist in an array.";
 
 
 
