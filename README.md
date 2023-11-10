@@ -82,7 +82,10 @@
                         Problem 03 : Insetion sort
 
                         Problem 04 : Binary Search
-                           
+
+        Day 16 : LeetCode Problems
+
+                        Problem 01 : Finding the first and last position of an element in an array                   
 
 
 
