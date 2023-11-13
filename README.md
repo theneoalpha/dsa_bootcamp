@@ -85,7 +85,9 @@
 
         Day 16 : LeetCode Problems
 
-                        Problem 01 : Finding the first and last position of an element in an array                   
+                        Problem 01 : Finding the first and last position of an element in an array               
+
+                        Problem 02 : Square root of a number using binary search    
 
 
 

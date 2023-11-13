@@ -5,6 +5,7 @@ using namespace std;
 
 int main() {
 
+  /*
   cout << "Leetcode 34 . Finding First and Last Position of element in sorted "
           "array\n";
   int n;
@@ -61,7 +62,7 @@ int main() {
   }
 
   cout << "The Last position of an element is " << last;
-
+*/
   // LeetCode Solution Problem 34
   /*
     class Solution {
@@ -112,4 +113,35 @@ int main() {
 
     };
   */
+
+
+
+  // Problem 02 :Leetcode 69 :  Square root of a number
+
+  
+  int n,mid, ans;
+  
+
+  cout << "Enter the number whose square root are finding:";
+
+  cin >> n;
+  int  start = 1, end = n;
+  if(n<2){
+    cout<<n;
+    ans = n;
+  }
+  
+  while (start <= end) {
+    mid = start + (end - start) / 2;
+    if (mid * mid == n) {
+      ans = mid;
+      break;
+    } else if (mid * mid > n) {
+      end = mid - 1;
+    } else {
+      ans = mid;
+      start = mid + 1;
+    }
+  }
+  cout << "The number is: " <<ans;
 }
