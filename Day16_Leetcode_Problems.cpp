@@ -114,7 +114,7 @@ int main() {
     };
   */
 
-
+/*
 
   // Problem 02 :Leetcode 69 :  Square root of a number
 
@@ -144,4 +144,54 @@ int main() {
     }
   }
   cout << "The number is: " <<ans;
+
+
+*/
+
+
+//  Problem 04 :H.W. Finding the counting of the target element in an sorted array
+
+  int arr[5]={8,10,10,10,12};
+  int target;
+  cout<<"Enter the element whose count you wanna print: ";
+  cin>>target;
+
+
+  int start=0, end =4,mid,first ,last;
+  //Finding the first position
+  while(start<=end){
+    mid = start+(end-start)/2;
+    if(arr[mid]==target){
+      first = mid;
+      end = mid-1;
+    }
+    else if(arr[mid]>target){
+      end = mid-1;
+    }
+    else{
+      start = mid+1;
+    }
+  }
+  //Lets find the last position
+  start = 0,end =4;
+  while(start<=end){
+    mid = start+(end-start)/2;
+    if(arr[mid]==target){
+      last = mid;
+      start = mid+1;
+    }
+    else if(arr[mid]>target){
+      end = mid-1;
+    }
+    else{
+      start = mid+1;
+    }
+  }
+
+  int ans = (last-first)+1;
+  
+cout<<ans;
+
+
+  
 }
