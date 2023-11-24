@@ -90,6 +90,12 @@
                         Problem 02 : Square root of a number using binary search    
 
 
+                         Problem 04 :H.W. Finding the counting of the target element in an sorted array
+
+        Day 17 : Binary Search Problems 
+
+
+                        Problem 01 : Peak element in an mountain arrray
 
 
 
