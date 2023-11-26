@@ -95,7 +95,9 @@
         Day 17 : Binary Search Problems 
 
 
-                        Problem 01 : Peak element in an mountain arrray
+                        Problem 01 LeetCode 854 : Peak element in an mountain arrray
+
+                        Problem 02 LeetCode 153 : Search smallest element in rotated array
 
 
 
