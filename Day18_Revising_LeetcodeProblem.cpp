@@ -73,7 +73,44 @@ int main() {
   }
   cout<<"Entered number is a power of 2";
    */
+  
+/*
+  cout<<"Problem 05: Finding the square root of a number.";
+  int num;
+  cout<<"Enter the number: ";
+  cin>>num;
 
-  
-  
+  for(int i=1;i<=num;i++){
+    if(i*i==num){
+      cout<<"The square root is "<<i;
+      return 0;
+    }
+    else if(i*i>num){
+      cout<<i-1;
+      return 0;
+    }
+  }
+
+  */
+
+  cout<<"Problem 06: palindrome Problem. eg 1 6 1  reverse will be same.";
+
+  int num,value,ans=0,rem;
+  cout<<"Enter the number: ";
+  cin>>num;
+
+  value = num;
+
+  while(num!=0){
+    rem = num%10;
+    num = num/10;
+    ans = ans*10+rem;
+  }
+  if(ans ==value){
+    cout<<"Yes given number is palindrome.";
+    
+  }
+  else{
+    cout<<"Not a palindrome.";
+  }
 }
